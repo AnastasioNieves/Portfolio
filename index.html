@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet"
+    href="/AprenTIC_FullStack_Web_Sevilla/Ejercicios Anastasio Nieves/Portfolio/Styles/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#main" class="logo">Anastasio Nieves Muñoz</a>
+      <input type="checkbox" id="menu-toggle" hidden>
+      <label for="menu-toggle" class="menu-toggle">☰</label>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="sobre-mi" class="panel about">
+      <div class="about-grid">
+        <div class="photo">
+          <img src="./rsc/foto.jpg" alt="Foto de Anastasio" />
+        </div>
+        <div class="bio">
+          <h2>Sobre mí</h2>
+          <p>
+            Hola, soy <strong>Anastasio</strong>. Soy desarrollador/a web
+            especializado/a en Back-end java y microservicios. Me apasiona
+            afrontar nuevas experiencias desafiantes e innovadoras.
+          </p>
+          <p class="links">
+            <a href="https://github.com/AnastasioNieves" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/anastasio-nieves-muñoz" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="panel skills">
+      <h2>Habilidades</h2>
+      <ul class="tech-list" aria-label="Lista de tecnologías">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Java</li>
+        <li>SpringBoot</li>
+        <li>Angular</li>
+        <li>Liferay</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="panel projects">
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="./rsc/proyecto1.jpg" alt="Captura del proyecto 1" />
+          <div class="project-info">
+            <h3>Proyecto TM Pro</h3>
+            <p>Breve descripción del proyecto y tecnologías usadas.</p>
+
+            <p class="project-links">
+              <a class="btn-demo" href="https://github.com/TasioNieves/fmpro.git" target="_blank" rel="noopener">
+                <span class="icon">🔗</span> Ver demo
+              </a>
+              <a class="btn-code" href="https://github.com/TasioNieves/fmpro.git" target="_blank" rel="noopener">
+                <span class="icon">💻</span> Ver código
+              </a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="./rsc/proyecto1.jpg" alt="Captura del proyecto 1" />
+          <div class="project-info">
+            <h3>Proyecto TM Pro</h3>
+            <p>Breve descripción del proyecto y tecnologías usadas.</p>
+
+            <p class="project-links">
+              <a class="btn-demo" href="https://github.com/TasioNieves/fmpro.git" target="_blank" rel="noopener">
+                <span class="icon">🔗</span> Ver demo
+              </a>
+              <a class="btn-code" href="https://github.com/TasioNieves/fmpro.git" target="_blank" rel="noopener">
+                <span class="icon">💻</span> Ver código
+              </a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="panel contact">
+      <h2>Contacto</h2>
+      <form class="contact-form" action="#" method="" novalidate>
+        <!-- dentro de <form class="contact-form"> -->
+        <div class="row">
+          <input id="name" name="name" type="text" required placeholder="Tu nombre" />
+          <input id="email" name="email" type="email" required placeholder="Tu correo" />
+        </div>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje..."></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+
+        <!-- mensaje de estado (muestra con JS tras enviar) -->
+        <div class="contact-status success" role="status" aria-live="polite" style="display: none">
+          ✅ Mensaje enviado. Gracias — te responderé pronto.
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        © <time datetime="2026">2026</time> Anastasio Nieves. Todos los
+        derechos reservados.
+      </p>
+    </div>
+  </footer>
+  <a href="#main" class="scroll-top">↑</a>
+</body>
+
+</html>
