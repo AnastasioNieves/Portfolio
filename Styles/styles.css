@@ -279,23 +279,7 @@ body {
   border: 1px solid rgba(11, 25, 32, 0.06);
 }
 
-.contact-form button {
-  align-self: flex-end;
-  padding: 0.5rem 1rem;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  border-radius: var(--btn-radius);
-  font-weight: 700;
-  cursor: pointer;
-  transition: var(--transition);
-}
 
-.contact-form button:hover {
-  background: var(--accent-strong);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(11,152,168,.25);
-}
 
 
 
