@@ -281,11 +281,7 @@ body {
 
 
 
-.contact-form button:hover {
-  background: var(--accent-strong);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(11,152,168,.25);
-}
+
 
 /* footer */
 .site-footer {
