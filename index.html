@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Mi Portfolio</title>
   <link rel="stylesheet"
-    href="Styles/styles.css" />
+    href="./Styles/styles.css" />
 </head>
 
 <body>
@@ -101,10 +101,11 @@
       </div>
     </section>
 
-    <section id="contacto" class="panel contact">
-      <h2>Contacto</h2>
+    <section id="contacto" class="panel_contact">
+      
       <form class="contact-form" action="#" method="" novalidate>
-        <!-- dentro de <form class="contact-form"> -->
+        <h2>Contacto</h2>
+        
         <div class="row">
           <input id="name" name="name" type="text" required placeholder="Tu nombre" />
           <input id="email" name="email" type="email" required placeholder="Tu correo" />
@@ -113,7 +114,7 @@
         <label for="message">Mensaje</label>
         <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje..."></textarea>
 
-        <button type="submit" class="btn">Enviar</button>
+        <button type="submit" class="btn-demo">Enviar</button>
 
         <!-- mensaje de estado (muestra con JS tras enviar) -->
         <div class="contact-status success" role="status" aria-live="polite" style="display: none">
